@@ -7,6 +7,8 @@ int main()
     printf("\n");
     scanf("%d",&a);
     temp=a;
+    if(a<=100000)
+    {
     while(a!=0)
     {
         rem=a%10;
@@ -20,6 +22,7 @@ int main()
     }
     else{
         printf("no");
+    }
     }
 return 0;
 }
