@@ -5,9 +5,9 @@ flag=0
 if (all(x in b for x in c)):
     flag=1
 if (flag):
-    print('yes')
+    print('YES')
 else:
-    print('no')
+    print('NO')
     
     
 #vignesh
