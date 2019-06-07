@@ -7,6 +7,7 @@ def repeat(a):
             if a[i]==a[k] and a[i] not in repeated:
                repeated.append(a[i])
     return repeated
+b=int(input())
 a=list(map(int,input().split()))
 a.sort()
 print(repeat(a))
